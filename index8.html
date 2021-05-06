@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Транспортування газу по території України</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    img{
+        width: 120px;
+        align-items: center;
+    }
+    h1 {
+        font-weight: 550;
+        font-size: 26px;
+        text-align: center;
+
+    }
+    h3{
+        text-align: center;
+    }
+    .banner-btn{
+        margin: 70px auto 0;
+
+    }
+    .banner-btn a{
+
+        text-align: center;
+        width: 150px;
+        text-decoration: none;
+        display: inline-block;
+        margin:  0 170px;
+        padding: 12px 0;
+        color: black;
+        border: .5px solid black;
+        position: relative;
+        z-index: 1;
+        transition: color 0.5s;
+
+    }
+    .banner-btn a span{
+        width: 0;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: white;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    .banner-btn a:hover span{
+        width: 100%;
+
+    }
+    .banner-btn a:hover{
+        color: red;
+
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80px;
+        background: #ebebeb;
+        color: #535353;
+        font-size: 17px;
+
+    }
+    .space{
+        margin-top: 340px;
+    }
+
+
+
+</style>
+<body>
+<header>
+    <img src="logo.png">
+    <h1>Транспортування газу по території України</h1>
+    <h3>Виберіть базу даних для перегляду:</h3>
+</header>
+
+<div class="banner-btn">
+    <a href="#"><span></span>Облік газу</a>
+    <a href="#"><span></span>Газопровід</a>
+    <a href="#"><span></span>Підприємство</a>
+</div>
+<div class="space"></div>
+<div class="footer">
+    <p>Copyright © 2021
+    <br> Буній Соломія, 7 варіант</p>
+</div>
+</body>
+</html>
